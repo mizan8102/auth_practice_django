@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "django-auth"
+version = "0.1.0"
+description = ""
+authors = ["Mizanur Rahman <mizan.prog@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.3"
+django-crispy-forms = "^2.1"
+crispy-bootstrap5 = "^2023.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
